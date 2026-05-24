@@ -51,7 +51,7 @@
 
 ### Option 1 — Docker (recommended)
 ```bash
-git clone https://github.com/YOUR_USERNAME/dsn-bct-agent.git
+git clone https://github.com//Samuel-jesusboy/BCT_DSN_hackathon_solution.git
 cd dsn-bct-agent
 export HF_TOKEN=your_hf_token_here
 docker-compose up --build
@@ -142,6 +142,13 @@ Yelp Reviews (6.9M)
 3. Enable GPU T4 x2, set SEED=42
 4. Run all cells (~3-4 hours)
 5. Download `/kaggle/working/artifacts/` → place in `./artifacts/`
+
+## Artifacts
+Large artifact files (FAISS index, user history, embeddings) are not stored in this repo 
+due to GitHub's file size limits. Download from Kaggle output:
+https://www.kaggle.com/jesusboyw200/datascience-final-solution/output
+
+Place downloaded files in the `artifacts/` directory before running.
 
 ---
 

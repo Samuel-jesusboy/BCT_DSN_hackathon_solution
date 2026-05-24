@@ -1,0 +1,5 @@
+artifacts/user_history.pkl
+artifacts/persona_embeddings.npy
+artifacts/item_index.faiss
+artifacts/item_context.pkl
+artifacts/item_profiles.pkl
